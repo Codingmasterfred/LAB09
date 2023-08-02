@@ -9,7 +9,7 @@ Data.json File: The project includes a data.json file in the solution root folde
 
 Reading and Filtering Data: The program reads the data from the data.json file and applies LINQ queries and Lambda expressions to filter and manipulate the data.
 
-Questions:
+
 
 Output All Neighborhoods: The program outputs all the neighborhoods in the data list. The total count of neighborhoods is 147.
 
@@ -21,7 +21,6 @@ Consolidated Query: The program consolidates all the previous queries into a sin
 
 Opposing Method: The program rewrites one of the previous questions using the opposing method. For example, if the initial question was answered using LINQ query statements, it is now rewritten using LINQ method calls, or vice versa.
 
-Guidance:
 
 The project utilizes the NewtonSoftJson NuGet package to work with JSON data. It uses JsonConvert.DeserializeObject<T> method to deserialize the JSON data into appropriate classes.
 
